@@ -1,0 +1,74 @@
+body{
+    background:#463E3F;
+    font-family:Century Gothic;
+}
+aside{
+    float:left;
+    background:black;
+    width:20%;
+    padding: 2.5%;
+    height: 900%;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+    font-family:Georgia;
+}
+aside img {
+    width:80px;
+    float:left;
+    margin-top:-13px;
+}
+aside .logo{
+    font-size:35px;
+    margin-left:10px;
+    margin-right:-10px;
+    font-weight:bold;
+    font-family:arial black;
+}
+aside h4{
+    font-size:20px;
+    margin-top:40px;
+    font-family:Century Gothic;
+}
+aside ul{
+    list-style: none;
+    margin-left:-30px;
+}
+aside ul li {
+    color:white;
+    display:block;
+    margin-top:20px;
+    transition: transform 0.1s ease;
+    margin-left:20px;
+    text-decoration: none;
+}
+aside ul li:hover, aside ul a:hover{
+    color:#B2BABB;
+    text-decoration:none;
+    transform:scale(1.01);
+    text-decoration: none;
+}
+main .features{
+    width:75%;
+    float:left;
+    color:white;
+    text-align: center;
+}
+.features h1 {font-size:60px;padding:50px;}
+.features h4 {font-size:20px;}
+.features h2 {font-size:40px;}
+.features p {font-size:20px; padding:0px 10px 20px 90px;}
+
+.alert-warning{
+    margin:20px 100px 20px 60px;
+    float:center;
+    width:95%;
+    text-align:left;
+    padding:20px 20px 20px 35px;
+    clear:both;
+    }
+
+form{
+    float:left;
+    width:100%;
+    padding:10px 0px 50px 50px;
+}

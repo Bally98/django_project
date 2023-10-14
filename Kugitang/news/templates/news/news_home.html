@@ -1,0 +1,18 @@
+{% extends 'main/base.html'%}
+{% block title %}News{% endblock %}
+{% block content %}
+    <div class="features">
+        <h1>News</h1>
+        {% if news %}
+            {% for i in news %}
+            <div class="alert alert-warning">
+                <h2>{{i.title}}</h2>
+                <h4>{{i.announce}}</h4>
+                <a href="{% url 'news_detail' i.id %}" class="btn btn-secondary">Details</a>
+            </div>
+            {% endfor %}
+        {% else %}
+            <h3>There are no posts yet</h3>
+        {% endif %}
+    </div>
+{% endblock %}
